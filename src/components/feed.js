@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Post from "./component-post";
+import Post from "./post";
 import "firebase/database";
-import Loading from "./component-loading";
+import Loading from "./loading";
 
 function FeedContent(props) {
   const [postData, setPostData] = useState({

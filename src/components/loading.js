@@ -1,5 +1,5 @@
 import React from "react";
-import load from "./load.gif";
+import load from "../load.gif";
 function Loading() {
   return (
     <React.Fragment>

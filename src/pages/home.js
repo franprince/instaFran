@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import insta from "./instashot.png";
+import insta from "../instashot.png";
 import firebase from "firebase/app";
 import "firebase/auth";
 import { useHistory } from "react-router-dom";
@@ -38,9 +38,9 @@ function Home() {
               </div>
               <div className="card-content center">
                 <img
-                  alt="Jonatan Ariste"
+                  alt="Person at the beach wishing to be using instaFran"
                   className="circle homePic"
-                  src="https://firebasestorage.googleapis.com/v0/b/instafran-d81b9.appspot.com/o/fotos%2F5d9Cedc.png?alt=media&token=0abcb1e0-e61e-4230-8cb2-930a3758bbe8"
+                  src="https://source.unsplash.com/random/500x500?photography,social,media"
                 />
                 <p>
                   Bienvenidos a <strong>Instafran</strong>, esta app esta creada

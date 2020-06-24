@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Nav from "./component-nav";
+import Nav from "../components/nav";
 import ReactDOM from "react-dom";
-import Modal from "./component-modal";
-import FeedContent from "./component-feed";
+import Modal from "../components/modal";
+import FeedContent from "../components/feed";
 import firebase from "firebase/app";
 
 function Feed() {

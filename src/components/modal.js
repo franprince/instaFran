@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import M from "materialize-css";
-import FileUpload from "./component-fileUpload";
+import FileUpload from "./fileUpload";
 import firebase from "firebase/app";
 import "firebase/database";
 import "firebase/firebase-storage";
